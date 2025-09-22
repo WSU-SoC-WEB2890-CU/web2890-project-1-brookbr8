@@ -1,0 +1,50 @@
+.steps-section .step {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.step-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.step-box {
+  position: relative;
+  background: #f9f9f9;
+  border: 2px solid #32333c;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s;
+  box-sizing: border-box;
+  z-index: 1;
+  overflow: visible;
+}
+
+.step-box::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.1) rotate(-10deg);
+  width: 100%;
+  height: 100%;
+  background-color: #518268;
+  z-index: -1;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.step-box:hover {
+  transform: translateY(-5px);
+}
+
+.step-empty {
+  flex: 1;
+}
+

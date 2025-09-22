@@ -1,0 +1,28 @@
+.accordion .accordion-item {
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  box-shadow: 18px 22px 40px -16px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 18px 22px 40px -16px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 18px 22px 40px -16px rgba(0, 0, 0, 0.5);
+}
+
+.accordion-button {
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  transition: all 0.3s ease;
+  background-color: #f9f9f9;
+}
+
+.accordion-item:nth-of-type(odd) .accordion-button::after {
+  filter: brightness(0) invert(1);
+}
+
+.accordion-item:nth-child(1) {
+  border-top: 5px solid #863843;
+}
+
+.accordion-item:nth-child(7) {
+  border-bottom: 5px solid #863843;
+}

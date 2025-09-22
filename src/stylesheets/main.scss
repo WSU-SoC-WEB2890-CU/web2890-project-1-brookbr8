@@ -1,3 +1,17 @@
 /* Your styles go here */
+
+// Sass Imports
+@use "./design/fonts";
+@import "./design/colors";
+@import "./sections/hero";
+@import "./sections/header";
+@import "./sections/steps";
+@import "./sections/advantages";
+@import "./sections/testimonials";
+@import "./sections/faqs.scss";
+@import "./sections/recent.scss";
+@import "./sections/main-point";
+
+// Bootstrap Imports
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";

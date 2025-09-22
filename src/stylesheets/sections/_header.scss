@@ -1,0 +1,32 @@
+header {
+  background: #c7525f;
+  background: linear-gradient(40deg, rgba(199, 82, 95, 1) 0%, rgba(71, 13, 13, 1) 45%, rgba(50, 51, 60, 0.79) 100%);
+}
+
+.home-btn {
+  display: inline-block;
+  background-color: #669386;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0;
+  border: none;
+  border-radius: 0.4rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.home-btn:hover,
+.home-btn:focus {
+  background-color: #218838;
+  transform: translateY(-2px);
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 690px) {
+  header {
+   background: linear-gradient(40deg, rgba(199, 82, 95, 1) 0%, rgba(50, 51, 60, 0.79) 100%);
+  }
+}
