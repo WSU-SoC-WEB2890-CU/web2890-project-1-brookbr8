@@ -1,0 +1,20 @@
+// Bootstrap color overwrite
+$primary: #32333c;
+$secondary: #863843;
+
+// Custom Colors
+$gray: #cbc8c8;
+$green: #518268;
+$lt-green: #669386;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "gray": $gray,
+  "green": $green,
+  "lt-green": $lt-green,
+);
+
+* {
+    color: #32333c;
+}

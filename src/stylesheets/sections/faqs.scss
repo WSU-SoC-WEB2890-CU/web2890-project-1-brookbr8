@@ -1,0 +1,22 @@
+.faq-card {
+  background-color: #cbc8c82b;
+  border: 1px solid #669386;
+  transition: all 0.3s ease;
+}
+
+.faq-card:hover {
+  box-shadow: 0 4px 16px rgba(83, 177, 108, 0.661);
+  transform: translateY(-2px);
+}
+
+.faq-question {
+  background: none;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
